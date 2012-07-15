@@ -1,3 +1,5 @@
+require "clear_eyes/railtie"
+
 module ClearEyes
   mattr_accessor :app_root
 
@@ -5,5 +7,3 @@ module ClearEyes
     yield self
   end
 end
-
-require "clear_eyes/railtie"
