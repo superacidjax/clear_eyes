@@ -6,7 +6,7 @@ This makes is super easy to handle Retina images in your Rails 3.1+ apps. It add
 
 In your Gemfile:
 
-    ```gem 'clear_eyes'``
+    ``` gem 'clear_eyes' ```
 
 In your application.js:
 
