@@ -21,6 +21,7 @@ Now that you have Retina-ready images and a way to serve them up in your views, 
 
 There's a rake for that! You only need to create one image (the Retina one).
 
+<<<<<<< HEAD
 Running this: ```'rake clear_eyes:convert'``` will convert create non-retina images from the images in app/assets/images. It's even take care of the file names! Pretty cool right? So, my_awesome_image@2x.jpg will automatically be copied, downsized and named my_awesome_image.jpg.
 
 You can thank me later.
