@@ -13,7 +13,7 @@ In your application.js:
     //= require clear_eyes
 
 ## Usage
-    ```= r_image_tag('my_awesome_image@2x.jpg')
+    = r_image_tag('my_awesome_image@2x.jpg')
 
 This assumes that ```my_awesome_image@2x.jpg``` is sized properly for retina images. Remember, Retina images are double the pixel density of standard images.
 
@@ -21,7 +21,7 @@ Now that you have Retina-ready images and a way to serve them up in your views, 
 
 There's a rake for that! You only need to create one image (the Retina one).
 
-Running this: ```rake clear_eyes:convert``` will convert create non-retina images from the images in app/assets/images. It's even take care of the file names! Pretty cool right? So, my_awesome_image@2x.jpg will automatically be copied, downsized and named my_awesome_image.jpg.
+Running this: ```rake clear_eyes:convert``` will convert create non-retina images from the images in app/assets/images. It's even take care of the file names! Pretty cool right? So, ```my_awesome_image@2x.jpg``` will automatically be copied, downsized and named my_awesome_image.jpg.
 
 You can thank me later.
 
