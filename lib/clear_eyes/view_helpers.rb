@@ -1,7 +1,7 @@
 module ClearEyes
   module ViewHelpers
     def self.included(base)
-      base.attr_accessor :image, :options
+      attr_accessor :image, :options
     end
 
     def r_image( pixel_ratio )
