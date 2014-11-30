@@ -14,6 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "clear_eyes"
   gem.require_paths = ["lib", "vendor"]
   gem.version       = ClearEyes::VERSION
-  gem.add_dependency "railties", ">= 3.1"
+  gem.add_dependency "railties", ">= 4.0"
   gem.add_dependency "rmagick", "~> 2.13.1"
 end
