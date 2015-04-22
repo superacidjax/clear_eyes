@@ -23,6 +23,8 @@ There's a rake for that! You only need to create one image (the Retina one).
 
 Running this: ```rake clear_eyes:convert``` will convert create non-retina images from the images in app/assets/images. It's even take care of the file names! Pretty cool right? So, ```my_awesome_image@2x.jpg``` will automatically be copied, downsized and named ```my_awesome_image.jpg```.
 
+**NOTE** rmagick "~> 2.13.1" must be added to your Gemfile for this to work. It is not included by default in order to avoid adding rmagick to your production environment.
+
 You can thank me later.
 
 ## Contributing
